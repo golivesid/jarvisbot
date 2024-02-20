@@ -9,7 +9,7 @@ async function main() {
   bot.start(async (ctx) => {
     try {
       ctx.reply(
-        `Hi ${ctx.message.from.first_name},\n\nTeraBox link Downloader\n\nSend any terabox link to download.`,
+        `Hi ${ctx.message.from.first_name},\n\nTeraBox link Downloader\n\nSend any terabox link to download`,
         Markup.inlineKeyboard([
           Markup.button.url(" Channel", "https://t.me/+qdLjzK5bWoViOWQ1"),
           Markup.button.url("Report bug", "https://t.me/seeuadmin_bot"),
