@@ -37,6 +37,9 @@ async function main() {
           try {
             ctx.reply(`Sending files please wait`);
             sendFile(details.direct_link, ctx);
+            URL url = MyClass.class.getResource("https://i.postimg.cc/WpY3v7mq/Hourglass.gif");
+            ImageIcon imageIcon = new ImageIcon(url);
+            JLabel label = new JLabel(imageIcon);
           } catch (e) {
             console.error(e); // Log the error for debugging
           }
